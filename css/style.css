@@ -697,6 +697,10 @@ video {
   height: 1.5rem;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-4 {
   width: 1rem;
 }
@@ -1259,14 +1263,20 @@ body {
 
 .backgroundd {
   margin: 8px;
-  background-color: #f1496a;
+  background-color: #2d6bad;
 }
 
 #coverr {
-  width: 722px;
+  /* width: 722px; */
   height: 522px;
   padding: 45px;
   margin: 0 auto;
+}
+
+#form-ui {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
 }
 
 #form-ui,
@@ -1281,7 +1291,7 @@ body {
   height: 472px;
   padding: 25px;
   background-color: #fff;
-  box-shadow: 0px 15px 60px #b6354e;
+  box-shadow: 0px 15px 60px #0e2a47;
   border-radius: 20px;
 }
 
@@ -1391,9 +1401,13 @@ body {
 #forgot-pass {
   text-align: center;
   margin-top: 10px;
+  color: #868686;
+  font-size: 12px;
+  text-decoration: none;
 }
 
 #forgot-pass a {
+  font-weight: bold;
   color: #868686;
   font-size: 12px;
   text-decoration: none;
@@ -1556,6 +1570,10 @@ body {
     display: block;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -1574,6 +1592,10 @@ body {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:justify-start {
+    justify-content: flex-start;
   }
 
   .md\:justify-between {
