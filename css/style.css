@@ -595,6 +595,10 @@ video {
   top: -2rem;
 }
 
+.right-0 {
+  right: 0px;
+}
+
 .z-50 {
   z-index: 50;
 }
@@ -1453,6 +1457,15 @@ body {
   background-color: #fff;
   border-radius: 0 20px 20px 0;
   overflow: hidden;
+}
+
+#img-box.left-card {
+  left: auto !important;
+  right: 312px !important;
+  border-radius: 20px 0 0 20px !important;
+}
+
+#img-box {
   background-image: url(../img/A4.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -1552,6 +1565,14 @@ body {
 @media (min-width: 768px) {
   .md\:-top-16 {
     top: -4rem;
+  }
+
+  .md\:right-48 {
+    right: 12rem;
+  }
+
+  .md\:left-48 {
+    left: 12rem;
   }
 
   .md\:mr-2 {
