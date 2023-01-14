@@ -224,7 +224,8 @@ body {
 
 #form-body {
   position: absolute;
-  top: 50%;
+  top: 45%;
+  /* top: 50%; */
   right: 25px;
   left: 25px;
   width: 230px;
@@ -233,12 +234,12 @@ body {
 
 #welcome-lines {
   text-align: center;
-  line-height: 1;
+  /* line-height: 1; */
 }
 
 #w-line-1 {
   color: #7f7f7f;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 #w-line-2 {
@@ -256,10 +257,11 @@ body {
   border: 1px solid #e3e3e3;
   line-height: 1;
   border-radius: 20px;
+  margin-bottom: 15px;
 }
 
-.f-inp:first-child {
-  margin-bottom: 15px;
+.f-inp:last-child {
+  margin-bottom: 10px;
 }
 
 .f-inp input {
@@ -347,6 +349,12 @@ body {
   background-color: #fff;
   border-radius: 0 20px 20px 0;
   overflow: hidden;
+}
+
+#img-box.left-card {
+  left: auto !important;
+  right: 312px !important;
+  border-radius: 20px 0 0 20px !important;
 }
 
 #img-box {
